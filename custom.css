@@ -1,17 +1,35 @@
 img {
   position: relative;
-  max-width: 100%;
   width: 100%;
-  height: auto;
-  box-sizing: border-box;
+  height: 100%;
+  display: block;
+  margin-bottom: 3em;
 }
-
+.project-img {
+  left: 50%;
+  transform: translateX(-80%);
+  width: 60%;
+  height: 60%;
+  align-self: center;
+  justify-content: center;
+  margin-left: 5em;
+  margin-bottom: 0;
+}
+/* .project-img{
+  margin: 2%;
+  width:46%;
+  padding:2%;
+  position: relative; 
+  left: 50%;
+  transform: translateX(-80%);
+  text-align: center; 
+} */
 
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  border-right: .15em solid #B7C4CF; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
@@ -21,7 +39,7 @@ img {
   text-align: left;
   font-size: 2.5em;
   font-family: "Yeseva One", cursive;
-  color: #7b8d7c;
+  color: #B7C4CF;
   /* margin-bottom: 0.05em; */
   text-transform: lowercase;
 }
@@ -123,6 +141,7 @@ img {
     margin-top: 1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    align-content: center;
   }
 }
 
@@ -200,8 +219,8 @@ strong {
 
   .logo {
     position: relative;
-    max-width: 8em;
-    width: 100px;
+    width: 300%;
+    height: auto;
     background: url("Images/logo2.gif");
     background-size: cover;
     background-repeat: no-repeat;
