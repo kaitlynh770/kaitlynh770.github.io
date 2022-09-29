@@ -15,6 +15,12 @@ img {
   margin-left: 5em;
   margin-bottom: 0;
 }
+.centerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* .project-img{
   margin: 2%;
   width:46%;
@@ -46,7 +52,7 @@ img {
 
 .typewriter h2{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  border-right: .15em solid #B7C4CF; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
@@ -63,7 +69,7 @@ img {
 
 .typewriter h3{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  border-right: .15em solid #B7C4CF; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
@@ -79,7 +85,7 @@ img {
 
 .typewriter h4{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  border-right: .15em solid #B7C4CF; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
@@ -99,7 +105,7 @@ img {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(146, 163, 141) }
+  50% { border-color: #B7C4CF }
 }
 
 .pinkimg {
@@ -109,7 +115,6 @@ img {
   height: auto;
   box-sizing: border-box;
 }
-
 .smallimg {
   position: relative;
   max-width: 25%;
@@ -120,6 +125,7 @@ img {
   margin-right: auto;
   margin-bottom: -70px;
 }
+
 
 .medimg {
   position: relative;
@@ -139,8 +145,8 @@ img {
 @media (min-width: 550px) {
   .work-index img {
     margin-top: 1em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
   }
 }
@@ -196,6 +202,9 @@ strong {
       padding-bottom: 0.5em;
       border-bottom: 1px solid var(--charcoal);
     }
+  }
+  .application-link{
+    color: #B7C4CF;
   }
 
   .viewall {
