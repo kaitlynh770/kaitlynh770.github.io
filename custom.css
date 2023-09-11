@@ -228,8 +228,8 @@ strong {
 
   .logo {
     position: relative;
-    width: 300%;
-    height: auto;
+    width: 400%;
+    height: 3em;
     background: url("Images/logo2.gif");
     background-size: cover;
     background-repeat: no-repeat;
@@ -747,6 +747,7 @@ textarea {
 
 #home {
   margin-top: 1.25em;
+  margin-left: auto;
 }
 
 #featured img {
