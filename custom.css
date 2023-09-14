@@ -6,8 +6,6 @@ img {
   margin-bottom: 3em;
 }
 .project-img {
-  left: 50%;
-  transform: translateX(-80%);
   width: 60%;
   height: 60%;
   align-self: center;
@@ -934,7 +932,7 @@ body.work .four.columns {
 
 .work-thumb {
   margin-top: 0.5xem;
-  text-align: left;
+  text-align: center;
   font-size: 1.75em;
   margin-bottom: 0.2em;
   text-transform: uppercase;
