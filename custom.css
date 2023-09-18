@@ -19,6 +19,17 @@ img {
   margin-right: auto;
   width: 50%;
 }
+.project-bottom{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+.project-github-link{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
 /* .project-img{
   margin: 2%;
   width:46%;
@@ -940,7 +951,6 @@ body.work .four.columns {
 }
 
 .work-middle {
-  margin-top: 0.5em;
   text-align: left;
   font-size: 1.75em;
   margin-bottom: 0em;
