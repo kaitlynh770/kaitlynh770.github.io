@@ -25,6 +25,10 @@ img {
   justify-content: space-between;
 
 }
+.videos{
+  display: flex;
+  justify-content: space-evenly;
+}
 .project-github-link{
   text-align: right;
   text-transform: uppercase;
